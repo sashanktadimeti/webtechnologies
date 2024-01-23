@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 213, 213);
+}
+.clock .number{
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style:oblique;
+}
+.clock{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:rgb(170, 101, 101);
+    position:relative;
+    border: 3px solid black;
+    box-shadow: rgba(214, 163, 163, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.clock .hand{
+    position: absolute;
+    bottom: 50%;
+    left:50%;
+    width:5px;
+    height:40%;
+    border:1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin:bottom;
+    background-color: black;
+}
+.clock .hand.second{
+    width:9px;
+    height:42%;
+}
+.clock .hand.minute{
+    width:9px;
+    height:39%;
+}
+.clock .hand.hour{
+    width:9px;
+    height:37%;
+}
+.clock .number1{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(30deg);
+    font-weight: bolder;
+}
+.clock .number2{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(60deg);
+    font-weight: bolder;
+}
+.clock .number3{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(90deg);
+    font-weight: bolder;
+}
+.clock .number4{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(120deg);
+    font-weight: bolder;
+}
+.clock .number5{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(150deg);
+    font-weight: bolder;
+}
+.clock .number6{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(180deg);
+    font-weight: bolder;
+}
+.clock .number7{
+    width:100%;
+    position:absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(210deg);
+    font-weight: bolder;
+}
+.clock .number8{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(240deg);
+    font-weight: bolder;
+}
+.clock .number9{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(270deg);
+    font-weight: bolder;
+}
+.clock .number10{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(300deg);
+    font-weight: bolder;
+}
+.clock .number11{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(330deg);
+    font-weight: bolder;
+}
+.clock .number12{
+    width:100%;
+    position: absolute;
+    height:100%;
+    text-align: center;
+    transform: rotate(360deg);
+    font-weight: bolder;
+}
+
+.clock .number1 b {
+    transform: rotate(-30deg);
+    display: inline-block;
+}
+
+.clock .number2 b {
+    transform: rotate(-60deg);
+    display: inline-block;
+}
+
+.clock .number3 b {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.clock .number4 b {
+    transform: rotate(-120deg);
+    display: inline-block;
+}
+
+.clock .number5 b {
+    transform: rotate(-150deg);
+    display: inline-block;
+}
+
+.clock .number6 b {
+    transform: rotate(-180deg);
+    display: block;
+}
+
+.clock .number7 b {
+    transform: rotate(-210deg);
+    display: inline-block;
+}
+
+.clock .number8 b {
+    transform: rotate(-240deg);
+    display: inline-block;
+}
+
+.clock .number9 b {
+    transform: rotate(-270deg);
+    display: inline-block;
+}
+
+.clock .number10 b {
+    transform: rotate(-300deg);
+    display: inline-block;
+}
+
+.clock .number11 b {
+    transform: rotate(-330deg);
+    display: inline-block;
+}
+
+.clock .number12 b {
+    transform: rotate(0deg);
+    display: inline-block;
+}
+.clock .dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 46%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    background-color:rgb(80, 80, 80);
+    border-radius: 50%;
+    outline: 10px solid #e24e64;
+    outline-offset: 7px;
+}
+

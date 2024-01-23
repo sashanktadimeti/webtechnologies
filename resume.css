@@ -1,0 +1,57 @@
+/* resume.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+h1,h4 {
+    margin: bottom 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li ul {
+    margin-left: 20px;
+}
+
+#p1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+ul li ul li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    font-size: 1em;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+#contact {
+    margin-top: 20px;
+    font-size: 1.2em;
+    border-top: 2px solid #333;
+    padding-top: 10px;
+}
+p {
+    margin: 5px;
+}
+
+h3 {
+    margin-top: 20px;
+}
